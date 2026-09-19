@@ -1,0 +1,18 @@
+{
+  "expected": {
+    "name": "31_空订单表",
+    "code": "EMPTY_ORDERS",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "EMPTY_ORDERS",
+      "ORPHAN_ORDER"
+    ]
+  }
+}

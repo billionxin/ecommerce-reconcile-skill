@@ -1,0 +1,19 @@
+{
+  "expected": {
+    "name": "33_损坏工作簿",
+    "code": "FILE_INVALID",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false,
+    "corrupt": "costs"
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "FILE_INVALID",
+      "MISSING_COST"
+    ]
+  }
+}

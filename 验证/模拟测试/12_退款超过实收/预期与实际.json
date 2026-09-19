@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "12_退款超过实收",
+    "code": "REFUND_EXCEEDS_PAID",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "REFUND_EXCEEDS_PAID"
+    ]
+  }
+}

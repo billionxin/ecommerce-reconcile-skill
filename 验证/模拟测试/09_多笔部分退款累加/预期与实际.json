@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "09_多笔部分退款累加",
+    "code": null,
+    "profit": 9099,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 9099,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

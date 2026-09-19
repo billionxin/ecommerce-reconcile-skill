@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "21_成本冲回超上限",
+    "code": "RECOVERY_EXCEEDS_COST",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "RECOVERY_EXCEEDS_COST"
+    ]
+  }
+}

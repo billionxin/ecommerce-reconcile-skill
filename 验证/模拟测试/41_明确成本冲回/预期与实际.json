@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "41_明确成本冲回",
+    "code": null,
+    "profit": 15100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 15100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

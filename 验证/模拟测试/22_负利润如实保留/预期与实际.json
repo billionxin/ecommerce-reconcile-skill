@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "22_负利润如实保留",
+    "code": "NEGATIVE_PROFIT",
+    "profit": 7100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 7100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": [
+      "NEGATIVE_PROFIT"
+    ]
+  }
+}

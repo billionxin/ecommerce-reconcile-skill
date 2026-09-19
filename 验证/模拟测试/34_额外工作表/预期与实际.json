@@ -1,0 +1,20 @@
+{
+  "expected": {
+    "name": "34_额外工作表",
+    "code": "SCHEMA",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false,
+    "extra_sheet": "orders"
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "EMPTY_ORDERS",
+      "ORPHAN_ORDER",
+      "SCHEMA"
+    ]
+  }
+}

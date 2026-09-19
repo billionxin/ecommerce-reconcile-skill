@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "24_大额阈值提醒",
+    "code": "LARGE_AMOUNT",
+    "profit": 10000090,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 10000090,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": [
+      "LARGE_AMOUNT"
+    ]
+  }
+}

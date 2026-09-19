@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "29_混合币种拒绝",
+    "code": "INVALID_CELL",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "INVALID_CELL"
+    ]
+  }
+}

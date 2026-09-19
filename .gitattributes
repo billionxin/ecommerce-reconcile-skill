@@ -1,0 +1,5 @@
+# Audit snapshots include byte-level hashes. Preserve original line endings.
+* -text
+*.xlsx binary
+*.pdf binary
+*.png binary

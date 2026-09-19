@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "11_失败退款不扣减",
+    "code": "REFUND_FAILED",
+    "profit": 12100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 12100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": [
+      "REFUND_FAILED"
+    ]
+  }
+}

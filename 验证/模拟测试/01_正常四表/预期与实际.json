@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "01_正常四表",
+    "code": null,
+    "profit": 10100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 10100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

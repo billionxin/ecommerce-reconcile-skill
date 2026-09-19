@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "13_孤立退款",
+    "code": "ORPHAN_ORDER",
+    "profit": 12100,
+    "eligible": 2,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 12100,
+    "eligible_orders": 2,
+    "complete": false,
+    "codes": [
+      "ORPHAN_ORDER"
+    ]
+  }
+}

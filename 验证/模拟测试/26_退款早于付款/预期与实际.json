@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "26_退款早于付款",
+    "code": "DATE_BEFORE_PAID",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "DATE_BEFORE_PAID"
+    ]
+  }
+}

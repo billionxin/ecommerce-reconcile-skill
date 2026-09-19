@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "30_没有退款的空表",
+    "code": null,
+    "profit": 12100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 12100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

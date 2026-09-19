@@ -1,0 +1,26 @@
+[
+  {
+    "code": "NEGATIVE_PROFIT",
+    "severity": "提醒",
+    "file": "订单.xlsx",
+    "sheet": "数据",
+    "row": 4,
+    "field": "",
+    "raw_value": "",
+    "order_id": "O1003",
+    "detail": "订单经营贡献为负，金额仍按原值计入",
+    "action": "该订单经营贡献为负，请核查成本、费用与退款。"
+  },
+  {
+    "code": "REFUND_PENDING",
+    "severity": "提醒",
+    "file": "退款.xlsx",
+    "sheet": "数据",
+    "row": 4,
+    "field": "退款状态",
+    "raw_value": "处理中",
+    "order_id": "O1005",
+    "detail": "未作为成功退款扣减",
+    "action": "尚未成功的退款未扣减，后续成功时请更新副本重跑。"
+  }
+]

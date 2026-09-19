@@ -1,0 +1,22 @@
+{
+  "expected": {
+    "name": "25_公式金额拒绝",
+    "code": "INVALID_CELL",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false,
+    "formula": [
+      "orders",
+      "C2",
+      "=100+0.1"
+    ]
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "INVALID_CELL"
+    ]
+  }
+}

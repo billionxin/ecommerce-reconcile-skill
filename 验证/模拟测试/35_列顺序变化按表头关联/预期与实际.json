@@ -1,0 +1,16 @@
+{
+  "expected": {
+    "name": "35_列顺序变化按表头关联",
+    "code": null,
+    "profit": 10100,
+    "eligible": 2,
+    "complete": true,
+    "reorder": "orders"
+  },
+  "actual": {
+    "profit_cents": 10100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

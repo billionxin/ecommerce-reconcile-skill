@@ -1,0 +1,18 @@
+{
+  "expected": {
+    "name": "32_缺失文件",
+    "code": "MISSING_FILE",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false,
+    "missing": "refunds"
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "MISSING_FILE"
+    ]
+  }
+}

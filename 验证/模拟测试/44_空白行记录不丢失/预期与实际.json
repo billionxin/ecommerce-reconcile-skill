@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "44_空白行记录不丢失",
+    "code": null,
+    "profit": 10100,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 10100,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

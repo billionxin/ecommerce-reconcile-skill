@@ -1,0 +1,22 @@
+{
+  "expected": {
+    "name": "04_缺少实收字段",
+    "code": "SCHEMA",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false,
+    "remove_header": [
+      "orders",
+      2
+    ]
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "ORPHAN_ORDER",
+      "SCHEMA"
+    ]
+  }
+}

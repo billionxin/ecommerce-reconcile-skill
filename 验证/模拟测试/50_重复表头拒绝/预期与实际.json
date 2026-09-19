@@ -1,0 +1,19 @@
+{
+  "expected": {
+    "name": "50_重复表头拒绝",
+    "code": "SCHEMA",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false,
+    "duplicate_header": "orders"
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "ORPHAN_ORDER",
+      "SCHEMA"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "expected": {
+    "name": "23_费用超过实收提醒",
+    "code": "FEE_EXCEEDS_PAID",
+    "profit": -1590,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": -1590,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": [
+      "FEE_EXCEEDS_PAID",
+      "NEGATIVE_PROFIT"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "16_缺少费用不填零",
+    "code": "MISSING_FEE",
+    "profit": 8400,
+    "eligible": 1,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 8400,
+    "eligible_orders": 1,
+    "complete": false,
+    "codes": [
+      "MISSING_FEE"
+    ]
+  }
+}

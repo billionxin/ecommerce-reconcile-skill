@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "45_跨订单重复退款号",
+    "code": "DUPLICATE_ID",
+    "profit": 0,
+    "eligible": 0,
+    "complete": false
+  },
+  "actual": {
+    "profit_cents": 0,
+    "eligible_orders": 0,
+    "complete": false,
+    "codes": [
+      "DUPLICATE_ID"
+    ]
+  }
+}

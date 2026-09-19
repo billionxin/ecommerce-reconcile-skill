@@ -1,0 +1,4 @@
+interface:
+  display_name: "电商经营核对"
+  short_description: "固定四表 Excel 经营核对，以整数分计算利润并保留异常、来源和原始数据"
+  default_prompt: "使用 $ecommerce-reconcile 核对我提供的四个 Excel 文件，输出经营利润报表、异常清单和可追溯的计算说明。"

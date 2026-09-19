@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "42_明确零费用",
+    "code": null,
+    "profit": 10410,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 10410,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

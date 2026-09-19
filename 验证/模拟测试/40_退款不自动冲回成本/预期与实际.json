@@ -1,0 +1,17 @@
+{
+  "expected": {
+    "name": "40_退款不自动冲回成本",
+    "code": "NEGATIVE_PROFIT",
+    "profit": 2090,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 2090,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": [
+      "NEGATIVE_PROFIT"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "code": "INVALID_CELL",
+    "severity": "阻断",
+    "file": "成本.xlsx",
+    "sheet": "数据",
+    "row": 9,
+    "field": "商品成本",
+    "raw_value": "",
+    "order_id": "O1008",
+    "detail": "必填字段为空",
+    "action": "核实原始凭证，在新副本中修正后重新运行。禁止直接改报表。"
+  },
+  {
+    "code": "DUPLICATE_ID",
+    "severity": "阻断",
+    "file": "订单.xlsx",
+    "sheet": "数据",
+    "row": 8,
+    "field": "订单号",
+    "raw_value": "O1007",
+    "order_id": "O1007",
+    "detail": "同一编号的全部记录均隔离，不自动去重",
+    "action": "核实重复记录的来源；不能自动保留第一条或重复累计。"
+  },
+  {
+    "code": "DUPLICATE_ID",
+    "severity": "阻断",
+    "file": "订单.xlsx",
+    "sheet": "数据",
+    "row": 12,
+    "field": "订单号",
+    "raw_value": "O1007",
+    "order_id": "O1007",
+    "detail": "同一编号的全部记录均隔离，不自动去重",
+    "action": "核实重复记录的来源；不能自动保留第一条或重复累计。"
+  },
+  {
+    "code": "ORPHAN_ORDER",
+    "severity": "阻断",
+    "file": "退款.xlsx",
+    "sheet": "数据",
+    "row": 6,
+    "field": "订单号",
+    "raw_value": "O9999",
+    "order_id": "O9999",
+    "detail": "无法在订单表找到关联订单",
+    "action": "核实订单号，补交关联订单或单独划定批次。"
+  },
+  {
+    "code": "NEGATIVE_PROFIT",
+    "severity": "提醒",
+    "file": "订单.xlsx",
+    "sheet": "数据",
+    "row": 4,
+    "field": "",
+    "raw_value": "",
+    "order_id": "O1003",
+    "detail": "订单经营贡献为负，金额仍按原值计入",
+    "action": "该订单经营贡献为负，请核查成本、费用与退款。"
+  },
+  {
+    "code": "REFUND_PENDING",
+    "severity": "提醒",
+    "file": "退款.xlsx",
+    "sheet": "数据",
+    "row": 4,
+    "field": "退款状态",
+    "raw_value": "处理中",
+    "order_id": "O1005",
+    "detail": "未作为成功退款扣减",
+    "action": "尚未成功的退款未扣减，后续成功时请更新副本重跑。"
+  },
+  {
+    "code": "REFUND_EXCEEDS_PAID",
+    "severity": "阻断",
+    "file": "退款.xlsx",
+    "sheet": "数据",
+    "row": 0,
+    "field": "",
+    "raw_value": "",
+    "order_id": "O1009",
+    "detail": "成功退款 9900 分 > 实收 7900 分",
+    "action": "核实实收及全部成功退款，排查重复退款或口径不一致。"
+  },
+  {
+    "code": "MISSING_FEE",
+    "severity": "阻断",
+    "file": "平台费用.xlsx",
+    "sheet": "数据",
+    "row": 0,
+    "field": "",
+    "raw_value": "",
+    "order_id": "O1010",
+    "detail": "缺少明确记录，不能按 0 计算",
+    "action": "补交该订单费用；确认无费用时提供金额为 0 的记录。"
+  }
+]

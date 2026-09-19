@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "36_0_1加0_2精确分",
+    "code": null,
+    "profit": 10380,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 10380,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

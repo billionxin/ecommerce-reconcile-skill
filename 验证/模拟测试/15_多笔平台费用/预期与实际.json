@@ -1,0 +1,15 @@
+{
+  "expected": {
+    "name": "15_多笔平台费用",
+    "code": null,
+    "profit": 9999,
+    "eligible": 2,
+    "complete": true
+  },
+  "actual": {
+    "profit_cents": 9999,
+    "eligible_orders": 2,
+    "complete": true,
+    "codes": []
+  }
+}

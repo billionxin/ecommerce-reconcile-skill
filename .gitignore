@@ -1,0 +1,33 @@
+# Default-deny at the project root: new merchant folders stay local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/requirements.txt
+!/run.ps1
+!/一键演示.cmd
+!/开始使用.md
+!/客户演示报告.pdf
+!/ecommerce-reconcile/
+!/空白模板/
+!/演示/
+!/验证/
+
+# Local dependencies and Python caches.
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Keep only reproducible test inputs and the published test notes.
+/验证/*
+!/验证/模拟测试/
+!/验证/测试报告.md
+!/验证/方法选择与来源.md
+/验证/模拟测试/**/*.inspect.ndjson
+
+# These input-generation logs are not required to use the templates.
+/空白模板/*.inspect.ndjson
+/演示/待核对原始数据/*.inspect.ndjson
+/演示/凭证确认后的副本/*.inspect.ndjson
