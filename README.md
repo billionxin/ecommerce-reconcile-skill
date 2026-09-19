@@ -68,3 +68,9 @@ python -X utf8 ecommerce-reconcile/scripts/test_reconcile.py
 订单经营贡献 = 实收 - 成功退款 - 平台费用 - 商品成本 - 履约成本 + 明确提供的成本冲回。
 
 “完整”仅说明上传的四表通过当前规则，不能证明没有漏交交易。尚未包含税费、人工、租金、广告等分摊，不是会计净利润或银行到账核对。当前不支持通用平台导出、SKU 拆单、多币种或负数费用冲销。没有登录、支付、会员和网站。
+
+## 开源许可
+
+本项目自有代码、文档和随附模拟数据采用 [MIT License](LICENSE)，允许在保留版权和许可声明的前提下使用、修改和商用。许可证原文见 [Open Source Initiative](https://opensource.org/license/mit)。
+
+本仓库不分发 Python、Node.js、openpyxl 或 Codex 的 `@oai/artifact-tool` 运行依赖；这些第三方组件分别遵循各自许可和使用条款。项目开源不表示 Codex 运行环境或其组件也采用 MIT 许可。

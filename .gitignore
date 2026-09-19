@@ -3,6 +3,7 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/LICENSE
 !/requirements.txt
 !/run.ps1
 !/一键演示.cmd
